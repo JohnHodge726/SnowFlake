@@ -7,9 +7,6 @@ bgcolor("lightblue")
 
 def snowflake_side(length, levels):
     if levels == 0:
-        #color("blue")
-        #dot(length)
-        #color("black")
         forward(length)
         return
 
